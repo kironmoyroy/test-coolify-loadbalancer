@@ -1,0 +1,17 @@
+{
+  "name": "getmypublicip",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Kironmoy Roy",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "public-ip": "^7.0.1"
+  }
+}
